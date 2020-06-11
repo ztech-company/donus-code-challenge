@@ -44,7 +44,7 @@ The   API   link   is:    https://api.code-challenge.ze.delivery/public/graphql
 ### Tech Requirements (for both positions):
 - You need to create a repo on GitHub to host your code
   - Github users:
-      - @ze-engineering-code-challenge
+      - @donus-git
 - Avoid using scaffolds (Create React App etc.), we want to see how you make your project structure
 - Keep it simple, no need for fancy stuff :)
 
