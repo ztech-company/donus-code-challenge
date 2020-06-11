@@ -1,75 +1,30 @@
-# Backend Challenge
+# Desafio de Backend
 
-## About the Challenge
+## Sobre o Desafio
 
-In this [json](files/pdvs.json) you will find data about hundreds of partners with the following format:
-```javascript
-{
-  "pdvs": [ 
-    {
-        "id": 1, 
-        "tradingName": "Adega da Cerveja - Pinheiros",
-        "ownerName": "Zé da Silva",
-        "document": "1432132123891/0001", //CNPJ
-        "coverageArea": { 
-          "type": "MultiPolygon", 
-          "coordinates": [
-            [[[30, 20], [45, 40], [10, 40], [30, 20]]], 
-            [[[15, 5], [40, 10], [10, 20], [5, 10], [15, 5]]]
-          ]
-        }, //Área de Cobertura
-        "address": { 
-          "type": "Point",
-          "coordinates": [-46.57421, -21.785741]
-        }, // Localização do PDV
-    }
-  ]
-}
-```
+Seu objetivo é criar um serviço que exponha uma API REST e possua duas funcionalidades básicas.
 
-Below, you can give a look on how these partners might be represented in a map:
+#### 1. Criar um filme
+Criar uma rota onde seja possivel criar um filme. Um filme deve contar as seguintes propriedades: Nome do Filme, Data de Lançamento, Nivel de Censura (CENSURADO ou SEM_CENSURA), Direção e Elenco. O Elenco deve ser uma lista de atores. 
 
-![Partners in map](files/images/pdvs.png)
+Regras: 
+* Não podem existir dois filmes com nomes iguais.
+* Um filme não pode ter mais do que 10 atores.
+* A lista de atores deve ser informada no momento de criação de um filme.
 
-Before talking about the challenge itself, let me give you some information about the partners' specification:
-We have some requirements that you must pay attention:
+#### 2. Buscar lista de filmes
+Criar uma rota que seja possível listar os filmes utilizando como filtro o nível de Censura (CENSURADO ou SEM_CENSURA).
 
-1. The `address` is defined by the format `GeoJSON Point` (https://en.wikipedia.org/wiki/GeoJSON)
-2. The `coverageArea` is defined by the format `GeoJSON MultiPolygon` (https://en.wikipedia.org/wiki/GeoJSON) 
-3. The `document` must be a unique field (as it is the CNPJ)
 
-## What we want you to do
+## Regras do Desafio
+* Para expôr suas API's utilize de preferência um framework Web simples e leve. O objetivo do teste não é saber se você sabe utilizar um framework web, mas sim se você utiliza boas práticas de desenvolvimento.
+* Não utilize boilerplates, gostamos de ver como o desenvolvedor organiza seu código.
+* Fique a vontade para escolher o banco de dados que achar melhor.
+* Dockerize sua aplicação. Isso facilitará para quem está corrigindo seu teste.
 
-Considering all the info we gave to you, we expect you to develop a service that provides API using REST or GraphQL and enable the following functionalities. The programming language and the database you choose to use it is entirely up to you. 
-
-### 1. Create partner: 
-
-All fields are required and must follow the rules set above.
-
-### 2. Get partner by id:
-
-Get a specific partner by its `id`.
-
-### 3. Search partner:
-
-Given a specific location (coordinates `lng` and `lat`), search the nearest partner considering each partner's coverage area.
-
-### 4. Tech Requirements, Docs and Deploy:
-
-* Your project must be **cross-platform**.
-* Provide a documentation so we know how to execute your service locally and how to deploy it (*focus on simplicity, and don't forget that we should test your service on our own, without further assistance*)
-
-## Evaluation Method
-
-Your code will be under review of the Zx's Global Engineering team. What we will look for:
-- **Performance**
-- **Testing**
-- **Maintanability**
-- **Separation of concerns**
-- **Software engineering**
-
-## How to deliver it
-
-**Once you have finished the challenge, please create a repository in your github and send us the link**
-
-Good luck!
+## Como avaliaremos?
+Avaliaremos o desafio baseado nos aspectos abaixo:
+* Seu código é construído utilizando práticas de DDD ( Domain Driven Design ) como Domínios, Serviços, Repostórios e etc.
+* Seu código aplica boas práticas de desenvolvimento como SOLID e DRY.
+* Seu código possui testes automatizados incluindo testes unitários, testes integrados e testes end-to-end.
+* Seu código retona códigos de erros claros e descritivos (Tratamento de Erros)
