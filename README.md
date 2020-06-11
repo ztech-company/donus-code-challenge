@@ -10,4 +10,4 @@
 - [QA](qa.md)
 
 ## Como entregar o desafio?
-**Assim que tiver termiado o desafio, por favor crie um repositório no seu github e nos envie o link.**
+**Assim que tiver terminado o desafio, por favor, crie um repositório no seu github e nos envie o link.**
