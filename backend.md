@@ -22,6 +22,6 @@ Em relação a banco de dados, quem decide é o dev mesmo.
 ## Como entregar?
 
 Não faça um fork desse projeto, crie um repositório no seu perfil do GitHub. Pode criar privado mesmo, sem problemas.
-Assim que terminar é só entrar em contato com a gente que vamos enviar o perfil de um de nossos devs para você compartilhar o código.
+Assim que terminar é só compartilhar o código com nosso usuário [donus-git](https://github.com/donus-git) e entrar em contato com a gente.
 
 Boa sorte e divirta-se! ;)
