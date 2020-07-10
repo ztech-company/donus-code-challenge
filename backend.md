@@ -1,6 +1,6 @@
 # Desafio de Backend
 
-Seu objetivo é criar uma API com algumas funções essenciais relacionadas ao saldo das contas bancárias.
+Seu objetivo é criar uma API com algumas funções essenciais relacionadas ao gerenciamento de contas bancárias.
 Para abrir uma conta é necessário apenas o nome completo e CPF da pessoa, mas só é permitido uma conta por pessoa.
 
 Com essa conta é possível realizar transferências para outras contas, depositar e retirar o dinheiro.
