@@ -1,30 +1,27 @@
 # Desafio de Backend
 
-## Sobre o Desafio
+Seu objetivo é criar uma API com algumas funções essenciais relacionadas ao gerenciamento de contas bancárias.
+Para abrir uma conta é necessário apenas o nome completo e CPF da pessoa, mas só é permitido uma conta por pessoa.
 
-Seu objetivo é criar um serviço que exponha uma API REST e possua duas funcionalidades básicas.
+- Com essa conta é possível realizar transferências para outras contas, depositar e retirar o dinheiro;
+- Ao depositar dinheiro na conta, o cliente recebe da Donus mais meio por cento do valor depositado como bônus;
+- Ao retirar o dinheiro é cobrado o valor de um por cento sobre o valor retirado, e não aceitamos valores negativos nas contas;
+- As transferências entre contas são gratuitas e ilimitadas;
+- É importante ter o histórico de todas as movimentações dos clientes.
 
-#### 1. Criar um filme
-Criar uma rota onde seja possivel criar um filme. Um filme deve contar as seguintes propriedades: Nome do Filme, Data de Lançamento, Nivel de Censura (CENSURADO ou SEM_CENSURA), Direção e Elenco. O Elenco deve ser uma lista de atores. 
+Em relação a banco de dados, quem decide é o dev mesmo.
 
-Regras: 
-* Não podem existir dois filmes com nomes iguais.
-* Um filme não pode ter mais do que 10 atores.
-* A lista de atores deve ser informada no momento de criação de um filme.
+## O que avaliamos?
 
-#### 2. Buscar lista de filmes
-Criar uma rota que seja possível listar os filmes utilizando como filtro o nível de Censura (CENSURADO ou SEM_CENSURA).
+- Performance
+- Testes
+- Manutenabilidade
+- Princípios de programação
+- Arquitetura de Software
 
+## Como entregar?
 
-## Regras do Desafio
-* Para expôr suas API's utilize de preferência um framework Web simples e leve. O objetivo do teste não é saber se você sabe utilizar um framework web, mas sim se você utiliza boas práticas de desenvolvimento.
-* Não utilize boilerplates, gostamos de ver como o desenvolvedor organiza seu código.
-* Fique a vontade para escolher o banco de dados que achar melhor.
-* Dockerize sua aplicação. Isso facilitará para quem está corrigindo seu teste.
+Não faça um fork desse projeto, crie um repositório no seu perfil do GitHub. Pode criar privado mesmo, sem problemas.
+Assim que terminar é só compartilhar o código com nosso usuário [donus-git](https://github.com/donus-git) e entrar em contato com a gente.
 
-## Como avaliaremos?
-Avaliaremos o desafio baseado nos aspectos abaixo:
-* Seu código é construído utilizando práticas de DDD ( Domain Driven Design ) como Domínios, Serviços, Repostórios e etc.
-* Seu código aplica boas práticas de desenvolvimento como SOLID e DRY.
-* Seu código possui testes automatizados incluindo testes unitários, testes integrados e testes end-to-end.
-* Seu código retona códigos de erros claros e descritivos (Tratamento de Erros)
+Boa sorte e divirta-se! ;)
