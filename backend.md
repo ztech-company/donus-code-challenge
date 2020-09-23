@@ -11,7 +11,7 @@ Seu objetivo é criar uma API com algumas funções essenciais relacionadas ao g
 
 Em relação a banco de dados, quem decide é o dev mesmo.
 
-Por favor, não esquecer de nos mandar as instruções de como executar o projeto.
+Por favor, não esquecer de adicionar no README as instruções de como executar o projeto.
 
 ## O que avaliamos?
 
