@@ -66,6 +66,7 @@ Your code will be under review of the Zx's Global Engineering team. What we will
 - **Componentization and data flux**
 - **Easy to understand code (again, no need for fancy stuff)**
 - **Tests**
+- **Typescript is a plus**
 
 Feel free to implement it the way you feel more confortable :)
 
