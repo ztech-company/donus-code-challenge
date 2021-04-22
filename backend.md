@@ -1,6 +1,8 @@
 # Desafio de Backend
 
-Seu objetivo é criar uma API REST com algumas funções essenciais relacionadas ao gerenciamento de contas bancárias:
+
+
+Seu **objetivo** é **criar uma API REST** com algumas **funções essenciais relacionadas** ao **gerenciamento de contas bancárias** em **uma** das linguagem: **Java, Kotlin, Python, Node.js, .NET**
 
 - Para abrir uma conta é necessário apenas o nome completo e CPF da pessoa, mas só é permitido uma conta por pessoa;
 - Com essa conta é possível realizar transferências para outras contas e depositar;
@@ -8,7 +10,7 @@ Seu objetivo é criar uma API REST com algumas funções essenciais relacionadas
 - Por questão de segurança cada transação de depósito não pode ser maior do que R$2.000;
 - As transferências entre contas são gratuitas e ilimitadas;
 
-Em relação a banco de dados, quem decide é o dev mesmo.
+Em relação a **banco de dados**, **quem decide é você mesmo**.
 
 Por favor, não esquecer de adicionar no README as instruções de como executar o projeto.
 
